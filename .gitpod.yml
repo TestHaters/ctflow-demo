@@ -3,6 +3,7 @@ image:
 vscode:
   extensions:
   - ctflow.ctflow
+  - https://github.com/TestHaters/ctflow-demo/raw/main/.gitpod/CTFlow-0.6.2.vsix
 ports:
   - name: VNC
     description: full GUI Virtual Desktop
