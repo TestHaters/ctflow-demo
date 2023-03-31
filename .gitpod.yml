@@ -1,0 +1,10 @@
+image:
+  file: .gitpod/.gitpod.Dockerfile
+vscode:
+  extensions:
+    - ctflow.ctflow
+ports:
+  - name: VNC
+    description: full GUI Virtual Desktop
+    port: 6080
+    onOpen: open-browser
