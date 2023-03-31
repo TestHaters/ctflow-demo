@@ -1,0 +1,40 @@
+nodes:
+  294b1bfb-9240-41d5-aae3-d486930522cc:
+    id: 294b1bfb-9240-41d5-aae3-d486930522cc
+    position:
+      x: -163.66699748933965
+      y: -38.424150567913316
+    type: visitNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      url: https://vnexpress.net
+      description: ""
+    outPorts: {}
+    data: {}
+  a05136fe-77af-4917-8af9-f379a248e33a:
+    id: a05136fe-77af-4917-8af9-f379a248e33a
+    position:
+      x: 70.5510103768888
+      y: -89.82013590229676
+    type: containsNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      field: html
+      value: vnexpress.net
+      description: ""
+    outPorts: {}
+    data: {}
+edges:
+  reactflow__edge-294b1bfb-9240-41d5-aae3-d486930522cc-a05136fe-77af-4917-8af9-f379a248e33a:
+    source: 294b1bfb-9240-41d5-aae3-d486930522cc
+    sourceHandle: null
+    target: a05136fe-77af-4917-8af9-f379a248e33a
+    targetHandle: null
+    type: customEdge
+    id: reactflow__edge-294b1bfb-9240-41d5-aae3-d486930522cc-a05136fe-77af-4917-8af9-f379a248e33a

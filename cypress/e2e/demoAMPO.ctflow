@@ -129,6 +129,22 @@ nodes:
     inPorts:
       field: "#password"
       value: "234234"
+      description: ""
+    outPorts: {}
+    data: {}
+  00b2eae8-0970-46dc-ba0f-4d8de8c88d27:
+    id: 00b2eae8-0970-46dc-ba0f-4d8de8c88d27
+    position:
+      x: 167.42515302858456
+      y: -385.56173288189507
+    type: buttonNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      field: asf
+      description: ""
     outPorts: {}
     data: {}
 edges:

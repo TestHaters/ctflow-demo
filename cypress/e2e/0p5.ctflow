@@ -1,0 +1,409 @@
+nodes:
+  6ba839bb-d71e-400e-99c0-049259e3f25b:
+    id: 6ba839bb-d71e-400e-99c0-049259e3f25b
+    position:
+      x: -375.58487006977623
+      y: 15.815306020470167
+    type: visitNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      url: https://mystorage.coderclient.com/booking/
+    outPorts: {}
+    data: {}
+  692deda8-53ea-45ea-97b1-0bdfeddc830b:
+    id: 692deda8-53ea-45ea-97b1-0bdfeddc830b
+    position:
+      x: -98.87380876702491
+      y: 17.967457045771393
+    type: codeInjectionNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      code: >+
+        cy.viewport(1920, 1080)
+
+        cy.get('.InputVolumeElements__CollapsibleButton-sc-na4do-0 > span:nth-child(1)').click();
+
+
+
+        cy.wait(5000)
+
+        cy.get('.slider-slide:nth-child(1) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(1) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(1) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(2) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(2) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(2) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(3) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(3) [data-cy="add-item"]').click();
+
+        cy.get('.SelectedItemsList__AddedItem-g8z4sm-9:nth-child(2) strong:nth-child(2)').click();
+
+        cy.get('[alt="3 seat sofa"]:nth-child(2)').click();
+
+        cy.get('.SelectedItemsList__AddedItem-g8z4sm-9:nth-child(2) > .SelectedItemsList__ItemRemove-g8z4sm-14').click();
+
+        cy.get('.slider-slide:nth-child(4) > .ItemsSelector__ImageHolder-sc-1y86vk7-4').click();
+
+        cy.get('.slider-slide:nth-child(4) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(4) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(4) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(4) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(6) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(6) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(6) [data-cy="add-item"]').click();
+
+        cy.get('[data-cy="items-container"]').click();
+
+        cy.get('.slider-control-centerright > .searchStyles-MuiSvgIcon-root').click();
+
+        cy.get('.slider-slide:nth-child(9) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(9) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(9) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(9) [data-cy="add-item"]').click();
+
+        cy.get('.slider-slide:nth-child(9) [data-cy="add-item"]').click();
+
+
+        cy.get('[name="volume"]').click();
+
+    outPorts: {}
+    data: {}
+  98da4d3d-869b-416f-9d21-15870c65a892:
+    id: 98da4d3d-869b-416f-9d21-15870c65a892
+    position:
+      x: 1037.1978165009975
+      y: -200.27194347221564
+    type: codeInjectionNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      code: >
+        cy.get('.ant-picker').click();
+
+        cy.get('.ant-picker-cell-end:nth-child(6) > .ant-picker-cell-inner').click();
+
+        cy.get('.ant-picker').click();
+
+        cy.get('.ant-picker-cell-selected > .ant-picker-cell-inner').click();
+
+        cy.get('#rc_select_0').click();
+
+        cy.get('.ant-select-item-option-active > .ant-select-item-option-content').click();
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+
+        cy.get('#name').click();
+
+        cy.get('#name').click();
+
+        cy.get('#name').type("from coder");
+
+        cy.get('#name').type('{a}');
+
+        cy.get('#name').type("CoderPush CTFLOW");
+
+        cy.get('#phone').click();
+
+        cy.get('#phone').type("0999393939393");
+
+        cy.get('#email').click();
+
+        cy.get('#email').type("ctflow@coderpush.com");
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+
+        cy.scrollTo(0, 4);
+
+        cy.scrollTo(0, 14);
+
+        cy.scrollTo(0, 17);
+
+        cy.scrollTo(0, 167);
+
+        cy.scrollTo(0, 172);
+
+        cy.scrollTo(0, 212);
+
+        cy.scrollTo(0, 213);
+
+        cy.scrollTo(0, 214);
+
+        cy.scrollTo(0, 272);
+
+        cy.scrollTo(0, 288);
+
+        cy.scrollTo(0, 290);
+
+        cy.scrollTo(0, 303);
+
+        cy.scrollTo(0, 307);
+
+        cy.scrollTo(0, 308);
+
+        cy.scrollTo(0, 308);
+
+        cy.get('#review-form_note').type("CTFlow tester");
+
+        cy.scrollTo(0, 317);
+
+        cy.scrollTo(0, 331);
+
+        cy.scrollTo(0, 335);
+
+        cy.scrollTo(0, 348);
+
+        cy.scrollTo(0, 351);
+
+        cy.scrollTo(0, 397);
+
+        cy.scrollTo(0, 398);
+
+        cy.get('[name="termAndConditions"]').click();
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+
+        cy.get('.ant-radio-wrapper:nth-child(4) .ant-radio-input').click();
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+    outPorts: {}
+    data: {}
+  e278aed8-8ae6-4948-a18e-43dc76d17782:
+    id: e278aed8-8ae6-4948-a18e-43dc76d17782
+    position:
+      x: 671.8286238973413
+      y: -186.97507805310073
+    type: codeInjectionNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      code: >-
+        cy.get('.input-space-button').click();
+
+        cy.get('.SelectDuration_duration__a1my3:nth-child(1) > .ant-btn').click();
+
+
+        cy.wait(2000)
+
+        cy.get('.ant-col:nth-child(2) span').click({force: true});
+
+        cy.get('.SpaceCardElements__HorizontalSpaceCardBody-sc-1q3cuc8-12:nth-child(4) .ant-btn').click();
+
+        cy.get('.service:nth-child(2)').click();
+
+        cy.get('.ant-col-12:nth-child(2) span').click({force: true});
+
+        // cy.get('[placeholder="DD-MM-YYYY"]').click();
+
+        // cy.get('tr:nth-child(3) > .ant-picker-cell:nth-child(2) > .ant-picker-cell-inner').click();
+    outPorts: {}
+    data: {}
+  b6f9544d-3978-4ce8-b76e-9ab65e63c145:
+    id: b6f9544d-3978-4ce8-b76e-9ab65e63c145
+    position:
+      x: 268.36374415987933
+      y: -143.43528629570721
+    type: codeInjectionNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      code: |
+        cy.get('[name="volume"]').type("22");
+        cy.get('.ant-btn-primary').click();
+    outPorts: {}
+    data: {}
+  873e30fb-4351-4920-a909-ed2ad9f5a723:
+    id: 873e30fb-4351-4920-a909-ed2ad9f5a723
+    position:
+      x: 260.87240152286154
+      y: 333.840105133515
+    type: codeInjectionNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      code: |
+        cy.get('[name="volume"]').type("18");
+    outPorts: {}
+    data: {}
+  c9b28b8b-3487-4270-ae1e-729c6c46d5b3:
+    id: c9b28b8b-3487-4270-ae1e-729c6c46d5b3
+    position:
+      x: 629.7767758736743
+      y: 313.6301672593732
+    type: codeInjectionNode
+    description: description
+    componentName: compName
+    outputQ:
+      - outputQ
+    inPorts:
+      code: >-
+        cy.get('.input-space-button').click();
+
+        cy.get('.SelectDuration_duration__a1my3:nth-child(1) > .ant-btn').click();
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+
+        cy.get('.SpaceCardElements__HorizontalSpaceCardBody-sc-1q3cuc8-12:nth-child(4) .ant-btn').click();
+
+        cy.get('.ant-col-12:nth-child(2) > .ant-btn').click();
+
+        cy.get('.ant-picker').click();
+
+        cy.get('.ant-picker-cell-end:nth-child(6) > .ant-picker-cell-inner').click();
+
+        cy.get('.ant-select-selection-search').click();
+
+        cy.get('.ant-select-item-option-active > .ant-select-item-option-content').click();
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+
+        cy.get('#name').click();
+
+        cy.get('#name').type("CoderPush CTFLOW");
+
+        cy.get('#phone').click();
+
+        cy.get('#phone').type("0999393939393");
+
+        cy.get('#email').click();
+
+        cy.get('#email').type("ctflow@coderpush.com");
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+
+        cy.scrollTo(0, 1);
+
+        cy.scrollTo(0, 112);
+
+        cy.scrollTo(0, 113);
+
+        cy.scrollTo(0, 115);
+
+        cy.scrollTo(0, 118);
+
+        cy.scrollTo(0, 120);
+
+        cy.scrollTo(0, 122);
+
+        cy.scrollTo(0, 139);
+
+        cy.scrollTo(0, 140);
+
+        cy.scrollTo(0, 140);
+
+        cy.scrollTo(0, 140);
+
+        cy.scrollTo(0, 141);
+
+        cy.scrollTo(0, 232);
+
+        cy.scrollTo(0, 239);
+
+        cy.scrollTo(0, 242);
+
+        cy.scrollTo(0, 263);
+
+        cy.scrollTo(0, 272);
+
+        cy.scrollTo(0, 273);
+
+        cy.scrollTo(0, 274);
+
+        cy.scrollTo(0, 275);
+
+        cy.get('#review-form_note').click();
+
+        cy.scrollTo(0, 292);
+
+        cy.scrollTo(0, 390);
+
+        cy.scrollTo(0, 392);
+
+        cy.scrollTo(0, 392);
+
+        cy.scrollTo(0, 390);
+
+        cy.get('[name="termAndConditions"]').click();
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+
+        cy.get('.ant-radio-wrapper:nth-child(4) .ant-radio-input').click();
+
+        cy.get('.ant-col:nth-child(2) > .ant-btn').click();
+    outPorts: {}
+    data: {}
+edges:
+  reactflow__edge-6ba839bb-d71e-400e-99c0-049259e3f25b-692deda8-53ea-45ea-97b1-0bdfeddc830b:
+    source: 6ba839bb-d71e-400e-99c0-049259e3f25b
+    sourceHandle: null
+    target: 692deda8-53ea-45ea-97b1-0bdfeddc830b
+    targetHandle: null
+    id: reactflow__edge-6ba839bb-d71e-400e-99c0-049259e3f25b-692deda8-53ea-45ea-97b1-0bdfeddc830b
+    selected: false
+  reactflow__edge-e278aed8-8ae6-4948-a18e-43dc76d17782-98da4d3d-869b-416f-9d21-15870c65a892:
+    source: e278aed8-8ae6-4948-a18e-43dc76d17782
+    sourceHandle: null
+    target: 98da4d3d-869b-416f-9d21-15870c65a892
+    targetHandle: null
+    type: customEdge
+    id: reactflow__edge-e278aed8-8ae6-4948-a18e-43dc76d17782-98da4d3d-869b-416f-9d21-15870c65a892
+    selected: false
+  reactflow__edge-b6f9544d-3978-4ce8-b76e-9ab65e63c145-e278aed8-8ae6-4948-a18e-43dc76d17782:
+    source: b6f9544d-3978-4ce8-b76e-9ab65e63c145
+    sourceHandle: null
+    target: e278aed8-8ae6-4948-a18e-43dc76d17782
+    targetHandle: null
+    type: customEdge
+    id: reactflow__edge-b6f9544d-3978-4ce8-b76e-9ab65e63c145-e278aed8-8ae6-4948-a18e-43dc76d17782
+    selected: false
+  reactflow__edge-692deda8-53ea-45ea-97b1-0bdfeddc830b-873e30fb-4351-4920-a909-ed2ad9f5a723:
+    source: 692deda8-53ea-45ea-97b1-0bdfeddc830b
+    sourceHandle: null
+    target: 873e30fb-4351-4920-a909-ed2ad9f5a723
+    targetHandle: null
+    type: customEdge
+    id: reactflow__edge-692deda8-53ea-45ea-97b1-0bdfeddc830b-873e30fb-4351-4920-a909-ed2ad9f5a723
+    selected: false
+  reactflow__edge-873e30fb-4351-4920-a909-ed2ad9f5a723-c9b28b8b-3487-4270-ae1e-729c6c46d5b3:
+    source: 873e30fb-4351-4920-a909-ed2ad9f5a723
+    sourceHandle: null
+    target: c9b28b8b-3487-4270-ae1e-729c6c46d5b3
+    targetHandle: null
+    type: customEdge
+    id: reactflow__edge-873e30fb-4351-4920-a909-ed2ad9f5a723-c9b28b8b-3487-4270-ae1e-729c6c46d5b3
+  reactflow__edge-692deda8-53ea-45ea-97b1-0bdfeddc830b-b6f9544d-3978-4ce8-b76e-9ab65e63c145:
+    source: 692deda8-53ea-45ea-97b1-0bdfeddc830b
+    sourceHandle: null
+    target: b6f9544d-3978-4ce8-b76e-9ab65e63c145
+    targetHandle: null
+    type: customEdge
+    id: reactflow__edge-692deda8-53ea-45ea-97b1-0bdfeddc830b-b6f9544d-3978-4ce8-b76e-9ab65e63c145
