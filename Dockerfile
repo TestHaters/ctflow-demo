@@ -3,4 +3,4 @@
 # # RUN npm install cypress --save-dev
 FROM gitpod/workspace-full-vnc:latest
 RUN npx install cypress --save-dev
-ENTRYPOINT ["npx", "cypress", "open"]
+# ENTRYPOINT ["npx", "cypress", "open"]
