@@ -15,14 +15,15 @@
 			]
 		}
 	},
-	// "features": {
-	// 	"ghcr.io/devcontainers/features/desktop-lite:1": {
-	// 		"password": "ctflow-demo",
-	// 		"webPort": 6080,
-	// 		"vncPort": 5901
-	// 	}
-	// },
-	"forwardPorts": [6080, 5901]
+	"features": {
+		"ghcr.io/devcontainers/features/desktop-lite:1": {
+			"webPort": 6080,
+			"vncPort": 5901
+		}
+	},
+	"forwardPorts": [6080, 5901],
+	"postStartCommand": "nohup bash -c 'npx cypress open &'"
+
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
