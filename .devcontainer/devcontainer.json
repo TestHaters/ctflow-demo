@@ -22,7 +22,7 @@
 		}
 	},
 	"forwardPorts": [6080, 5901],
-	"postStartCommand": "nohup bash -c 'npx cypress open &'"
+	"postStartCommand": "nohup bash -c 'npx cypress install && npx cypress open &'"
 
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
